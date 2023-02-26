@@ -27,14 +27,6 @@
 
 
 body {
-    /*
-    background-image: url(assets/bg-mobile.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-    */
-
-    /*background: color image repeat position/size*/
     background: var(--bg-url) no-repeat 
     top center/cover;
 }
@@ -45,7 +37,8 @@ body * {
 }
 
 #container {
-    width: 360px;
+    width: 100%px;
+    max-width: 560px;
     margin: 56px auto 0px;
     padding: 0 24px;
 }
